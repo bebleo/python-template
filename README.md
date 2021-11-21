@@ -18,7 +18,10 @@ Once the repository has been completed then edit and commit:
 1. `setup.cfg`, putting your own values in for author, author email, project
    name, description, and version.
 2. `LICENSE` update the copyright name with an appropriate vaslue.
-2. Rename the project folder to match the name. From inside the repository
+3. Set the contact information in the `CODE_OF_CONDUCT.md` to an appropriate
+   value that people can use to contact the project team about violations
+   and/or concerns.
+4. Rename the project folder to match the name. From inside the repository
    run `mv ./package_name ./{{ project.name }}` substituting
    the name of your package for "{{ project.name }}".
 
