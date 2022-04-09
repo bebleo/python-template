@@ -1,10 +1,10 @@
 # Python Template
 
-This is a template for python projects using python 3.6 and later.
+This is a template for python projects using python 3.7 and later.
 
 ## How to use
 
-To create a repository using this template with github cli:
+To create a repository using this template with GitHub CLI:
 
 ```
 $ gh repo create --template bebleo/python-template
@@ -28,7 +28,7 @@ Once the repository has been completed then edit and commit:
 ## About the template
 
 This template is opinionanted and uses `tox` out of the box to run tests with
-Python 3.6 to Python 3.10. We use `flake8` and `isort` for linting. To install
+Python 3.7 to Python 3.10. We use `flake8` and `isort` for linting. To install
 these:
 
 ```
